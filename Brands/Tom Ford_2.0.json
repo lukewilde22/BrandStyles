@@ -95,11 +95,11 @@
   },
   "Font Family": {
     "Primary": {
-      "value": "Helvetica Neue LT Pro",
+      "value": "Gotham",
       "type": "fontFamilies"
     },
     "Secondary": {
-      "value": "Bodoni LT",
+      "value": "Gotham",
       "type": "fontFamilies"
     }
   },
@@ -199,19 +199,19 @@
   },
   "Font Weight": {
     "Light": {
-      "value": "45 Light",
+      "value": "Book",
       "type": "fontWeights"
     },
     "Regular": {
-      "value": "55 Roman",
+      "value": "Book",
       "type": "fontWeights"
     },
     "Medium": {
-      "value": "65 Medium",
+      "value": "Medium",
       "type": "fontWeights"
     },
     "Bold": {
-      "value": "75 Bold",
+      "value": "Medium",
       "type": "fontWeights"
     }
   },
@@ -272,17 +272,17 @@
       },
       "Dark": {
         "Strong": {
-          "value": "#000",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color",
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.64)",
+          "value": "{Colours.Brand.Secondary.MediumGrey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.4)",
+          "value": "{Colours.Brand.Secondary.Grey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-weak"
         }
@@ -308,17 +308,17 @@
       },
       "Dark": {
         "Strong": {
-          "value": "#000",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.IconEmphasis.Dark.Strong}, 0.64)",
+          "value": "{Colours.Brand.Secondary.MediumGrey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.IconEmphasis.Dark.Strong}, 0.24)",
+          "value": "{Colours.Brand.Secondary.Grey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-weak"
         }
@@ -327,7 +327,7 @@
     "System": {
       "Danger": {
         "Text": {
-          "value": "#eb3300",
+          "value": "#d0021b",
           "type": "color",
           "description": "--colours-system-danger-text"
         },
@@ -357,7 +357,7 @@
           "description": "--colours-system-danger-borderhover"
         },
         "Icon": {
-          "value": "#eb3300",
+          "value": "#d0021b",
           "type": "color",
           "description": "--colours-system-danger-icon"
         },
@@ -369,7 +369,7 @@
       },
       "Success": {
         "Text": {
-          "value": "#009900",
+          "value": "#149901",
           "type": "color"
         },
         "TextHover": {
@@ -393,7 +393,7 @@
           "type": "color"
         },
         "Icon": {
-          "value": "#009900",
+          "value": "#149901",
           "type": "color"
         },
         "IconHover": {
@@ -496,22 +496,22 @@
     },
     "Border": {
       "Default": {
-        "value": "#cccccc",
+        "value": "{Colours.Brand.Secondary.Grey}",
         "type": "color"
       },
       "Active": {
-        "value": "#000000",
+        "value": "{Colours.Brand.Primary.Black}",
         "type": "color"
       }
     },
     "Button": {
       "Background": {
         "Default": {
-          "value": "#eb3300",
+          "value": "#000000",
           "type": "color"
         },
         "Disabled": {
-          "value": "#cccccc",
+          "value": "#656565",
           "type": "color"
         }
       },
@@ -541,7 +541,7 @@
       },
       "Border": {
         "Default": {
-          "value": "#dfdfdf",
+          "value": "{Colours.Brand.Secondary.Grey}",
           "type": "color"
         }
       }
@@ -555,14 +555,14 @@
       },
       "Border": {
         "Default": {
-          "value": "#b4b4b4",
+          "value": "{Colours.Brand.Secondary.Grey}",
           "type": "color"
         }
       }
     },
     "Divider": {
       "Default": {
-        "value": "#dfdfdf",
+        "value": "{Colours.Brand.Secondary.Grey}",
         "type": "color"
       }
     },
@@ -754,14 +754,38 @@
     },
     "Brand": {
       "Primary": {
-        "value": "#376DD3",
-        "type": "color",
-        "description": "--colours-brand-primary"
+        "Black": {
+          "value": "#000000",
+          "type": "color",
+          "description": "--colours-brand-primary"
+        },
+        "White": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "--colours-brand-primary"
+        }
       },
       "Secondary": {
-        "value": "#eef2f3",
-        "type": "color",
-        "description": "--colours-brand-secondary"
+        "DarkGrey": {
+          "value": "#404040",
+          "type": "color",
+          "description": "--colours-brand-secondary"
+        },
+        "MediumGrey": {
+          "value": "#656565",
+          "type": "color",
+          "description": "--colours-brand-secondary"
+        },
+        "Grey": {
+          "value": "#b7b7b7",
+          "type": "color",
+          "description": "--colours-brand-secondary"
+        },
+        "LightGrey": {
+          "value": "#e3e3e3",
+          "type": "color",
+          "description": "--colours-brand-secondary"
+        }
       }
     }
   },
@@ -771,18 +795,20 @@
         "default": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}"
+            "fontSize": "{Font Size.Desktop.H1}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}"
+            "fontSize": "{Font Size.Desktop.H1}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -791,16 +817,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}"
+            "fontSize": "{Font Size.Desktop.H1}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "light": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}"
+            "fontSize": "{Font Size.Desktop.H1}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -809,18 +837,20 @@
         "default": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}"
+            "fontSize": "{Font Size.Desktop.H2}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}"
+            "fontSize": "{Font Size.Desktop.H2}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -829,16 +859,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}"
+            "fontSize": "{Font Size.Desktop.H2}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "light": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}"
+            "fontSize": "{Font Size.Desktop.H2}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -847,18 +879,20 @@
         "default": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}"
+            "fontSize": "{Font Size.Desktop.H3}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}"
+            "fontSize": "{Font Size.Desktop.H3}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -867,7 +901,8 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}"
+            "fontSize": "{Font Size.Desktop.H3}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -876,7 +911,8 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Light}",
             "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}"
+            "fontSize": "{Font Size.Desktop.H3}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -885,18 +921,20 @@
         "default": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}"
+            "fontSize": "{Font Size.Desktop.H4}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}"
+            "fontSize": "{Font Size.Desktop.H4}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -905,16 +943,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}"
+            "fontSize": "{Font Size.Desktop.H4}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "light": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}"
+            "fontSize": "{Font Size.Desktop.H4}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -923,18 +963,20 @@
         "default": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}"
+            "fontSize": "{Font Size.Desktop.H5}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}"
+            "fontSize": "{Font Size.Desktop.H5}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -943,16 +985,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}"
+            "fontSize": "{Font Size.Desktop.H5}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "light": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}"
+            "fontSize": "{Font Size.Desktop.H5}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -963,16 +1007,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}"
+            "fontSize": "{Font Size.Desktop.H6}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}"
+            "fontSize": "{Font Size.Desktop.H6}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
@@ -981,16 +1027,18 @@
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}"
+            "fontSize": "{Font Size.Desktop.H6}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         },
         "light": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
+            "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}"
+            "fontSize": "{Font Size.Desktop.H6}",
+            "textCase": "Uppercase"
           },
           "type": "typography"
         }
@@ -1532,9 +1580,9 @@
           "value": {
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "14px",
-            "fontSize": "12px",
-            "letterSpacing": "1px",
+            "lineHeight": "16px",
+            "fontSize": "13px",
+            "letterSpacing": "-0.54px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1728,7 +1776,7 @@
   },
   "Desktop": {
     "ButtonHeight": {
-      "value": "13px, 24px, 13px, 24px",
+      "value": "12px, 20px, 12px, 20px",
       "type": "spacing"
     },
     "InputHeight": {
@@ -1742,7 +1790,7 @@
   },
   "Mobile": {
     "ButtonHeight": {
-      "value": "13px, 24px, 13px, 24px",
+      "value": "12px, 20px, 12px, 20px",
       "type": "spacing"
     },
     "InputHeight": {

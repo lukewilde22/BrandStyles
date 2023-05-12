@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "4ee56561689065c40253836be4295073862c1690",
+    "name": "Tom Ford 2.0",
+    "selectedTokenSets": {
+      "Tom Ford_2.0": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

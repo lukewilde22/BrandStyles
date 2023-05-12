@@ -246,7 +246,7 @@
           "description": "--colours-background-dark-medium"
         },
         "Strong": {
-          "value": "{Colours.Brand.Primary}",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color",
           "description": "--colours-background-dark-strong"
         }
@@ -272,7 +272,7 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary}",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color",
           "description": "--colours-textemphasis-dark-strong"
         },
@@ -308,7 +308,7 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary}",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-strong"
         },
@@ -500,14 +500,14 @@
         "type": "color"
       },
       "Active": {
-        "value": "{Colours.Brand.Primary}",
+        "value": "{Colours.Brand.Primary.Black}",
         "type": "color"
       }
     },
     "Button": {
       "Background": {
         "Default": {
-          "value": "{Colours.Brand.Primary}",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color"
         },
         "Disabled": {
@@ -517,7 +517,7 @@
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Primary}",
+          "value": "{Colours.Brand.Primary.Black}",
           "type": "color"
         }
       }
