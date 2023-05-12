@@ -1591,9 +1591,9 @@
           "value": {
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "14px",
-            "fontSize": "12px",
-            "letterSpacing": "1px",
+            "lineHeight": "16px",
+            "fontSize": "13px",
+            "letterSpacing": "-0.54px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1604,9 +1604,9 @@
           "value": {
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "14px",
-            "fontSize": "12px",
-            "letterSpacing": "1px",
+            "lineHeight": "16px",
+            "fontSize": "13px",
+            "letterSpacing": "-0.54px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1615,9 +1615,9 @@
           "value": {
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "14px",
-            "fontSize": "12px",
-            "letterSpacing": "1px",
+            "lineHeight": "16px",
+            "fontSize": "13px",
+            "letterSpacing": "-0.54px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1626,7 +1626,7 @@
     }
   },
   "Button": {
-    "value": "4",
+    "value": "0",
     "type": "borderRadius"
   },
   "Input": {
