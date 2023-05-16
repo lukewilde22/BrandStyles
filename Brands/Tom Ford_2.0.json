@@ -26,11 +26,11 @@
         "type": "fontSizes"
       },
       "Body 1": {
-        "value": "16",
+        "value": "13",
         "type": "fontSizes"
       },
       "Body 2": {
-        "value": "14",
+        "value": "13",
         "type": "fontSizes"
       }
     },
@@ -60,11 +60,11 @@
         "type": "fontSizes"
       },
       "Body 1": {
-        "value": "16",
+        "value": "13",
         "type": "fontSizes"
       },
       "Body 2": {
-        "value": "14",
+        "value": "13",
         "type": "fontSizes"
       }
     },
@@ -130,11 +130,11 @@
         "type": "lineHeights"
       },
       "Body 1": {
-        "value": "24",
+        "value": "16",
         "type": "lineHeights"
       },
       "Body 2": {
-        "value": "20",
+        "value": "16",
         "type": "lineHeights"
       }
     },
@@ -164,11 +164,11 @@
         "type": "lineHeights"
       },
       "Body 1": {
-        "value": "24",
+        "value": "16",
         "type": "lineHeights"
       },
       "Body 2": {
-        "value": "20",
+        "value": "16",
         "type": "lineHeights"
       }
     },
@@ -1406,7 +1406,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Regular}",
               "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "fontSize": "{Font Size.Desktop.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1415,7 +1416,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Bold}",
               "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "fontSize": "{Font Size.Desktop.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1424,7 +1426,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Medium}",
               "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "fontSize": "{Font Size.Desktop.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1433,7 +1436,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Light}",
               "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "fontSize": "{Font Size.Desktop.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           }
@@ -1443,8 +1447,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Regular}",
-              "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "lineHeight": "{Line Height.Mobile.Body 1}",
+              "fontSize": "{Font Size.Mobile.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1452,8 +1457,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Bold}",
-              "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "lineHeight": "{Line Height.Mobile.Body 1}",
+              "fontSize": "{Font Size.Mobile.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1461,8 +1467,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Medium}",
-              "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "lineHeight": "{Line Height.Mobile.Body 1}",
+              "fontSize": "{Font Size.Mobile.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1470,8 +1477,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Light}",
-              "lineHeight": "{Line Height.Desktop.Body 1}",
-              "fontSize": "{Font Size.Desktop.Body 1}"
+              "lineHeight": "{Line Height.Mobile.Body 1}",
+              "fontSize": "{Font Size.Mobile.Body 1}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           }
@@ -1484,7 +1492,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Regular}",
               "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "fontSize": "{Font Size.Desktop.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1493,7 +1502,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Bold}",
               "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "fontSize": "{Font Size.Desktop.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1502,7 +1512,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Medium}",
               "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "fontSize": "{Font Size.Desktop.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1511,7 +1522,8 @@
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Light}",
               "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "fontSize": "{Font Size.Desktop.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           }
@@ -1521,8 +1533,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Regular}",
-              "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "lineHeight": "{Line Height.Mobile.Body 2}",
+              "fontSize": "{Font Size.Mobile.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1530,8 +1543,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Bold}",
-              "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "lineHeight": "{Line Height.Mobile.Body 2}",
+              "fontSize": "{Font Size.Mobile.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1539,8 +1553,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Medium}",
-              "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "lineHeight": "{Line Height.Mobile.Body 2}",
+              "fontSize": "{Font Size.Mobile.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           },
@@ -1548,8 +1563,9 @@
             "value": {
               "fontFamily": "{Font Family.Primary}",
               "fontWeight": "{Font Weight.Light}",
-              "lineHeight": "{Line Height.Desktop.Body 2}",
-              "fontSize": "{Font Size.Desktop.Body 2}"
+              "lineHeight": "{Line Height.Mobile.Body 2}",
+              "fontSize": "{Font Size.Mobile.Body 2}",
+              "letterSpacing": "-0.4px"
             },
             "type": "typography"
           }
