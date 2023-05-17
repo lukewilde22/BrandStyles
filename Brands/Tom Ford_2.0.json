@@ -277,12 +277,12 @@
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Secondary.MediumGrey}",
+          "value": "{Colours.Brand.Grey.MediumGrey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
         "Weak": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-weak"
         }
@@ -313,12 +313,12 @@
           "description": "--colours-iconemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Secondary.MediumGrey}",
+          "value": "{Colours.Brand.Grey.MediumGrey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-medium"
         },
         "Weak": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-weak"
         }
@@ -496,7 +496,7 @@
     },
     "Border": {
       "Default": {
-        "value": "{Colours.Brand.Secondary.Grey}",
+        "value": "{Colours.Brand.Grey.Grey}",
         "type": "color"
       },
       "Active": {
@@ -541,7 +541,7 @@
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color"
         }
       }
@@ -555,14 +555,14 @@
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color"
         }
       }
     },
     "Divider": {
       "Default": {
-        "value": "{Colours.Brand.Secondary.Grey}",
+        "value": "{Colours.Brand.Grey.Grey}",
         "type": "color"
       }
     },
@@ -765,7 +765,7 @@
           "description": "--colours-brand-primary"
         }
       },
-      "Secondary": {
+      "Grey": {
         "DarkGrey": {
           "value": "#404040",
           "type": "color",
@@ -789,7 +789,7 @@
       }
     }
   },
-  "typography": {
+  "Typography": {
     "Desktop": {
       "h1": {
         "default": {
@@ -1613,6 +1613,18 @@
             "textCase": "Uppercase"
           },
           "type": "typography"
+        },
+        "Text": {
+          "value": {
+            "fontFamily": "{Font Family.Primary}",
+            "fontWeight": "{Font Weight.Regular}",
+            "lineHeight": "{Line Height.Desktop.Body 1}",
+            "fontSize": "{Font Size.Desktop.Body 1}",
+            "letterSpacing": "-0.4px",
+            "textCase": "Title case",
+            "textDecoration": "Underline"
+          },
+          "type": "typography"
         }
       },
       "Mobile": {
@@ -1635,6 +1647,18 @@
             "fontSize": "13px",
             "letterSpacing": "-0.54px",
             "textCase": "Uppercase"
+          },
+          "type": "typography"
+        },
+        "Text": {
+          "value": {
+            "fontFamily": "{Font Family.Primary}",
+            "fontWeight": "{Font Weight.Regular}",
+            "lineHeight": "{Line Height.Mobile.Body 1}",
+            "fontSize": "{Font Size.Mobile.Body 1}",
+            "letterSpacing": "-0.4px",
+            "textCase": "Title case",
+            "textDecoration": "Underline"
           },
           "type": "typography"
         }
@@ -1816,6 +1840,12 @@
     "InputSpacing": {
       "value": "16px",
       "type": "spacing"
+    }
+  },
+  "Products": {
+    "Fragrance 1": {
+      "value": "https://i1.adis.ws/i/tom_ford/T5Y-OMBRE_APPENDGRID",
+      "type": "asset"
     }
   }
 }

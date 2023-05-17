@@ -281,7 +281,7 @@
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
@@ -317,7 +317,7 @@
           "description": "--colours-iconemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Secondary.Grey}",
+          "value": "{Colours.Brand.Grey.Grey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-medium"
         },
