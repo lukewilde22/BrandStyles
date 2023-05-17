@@ -1670,7 +1670,7 @@
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "16px",
             "fontSize": "13px",
-            "letterSpacing": "-0.54px",
+            "letterSpacing": "-0.4px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1681,7 +1681,7 @@
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "16px",
             "fontSize": "13px",
-            "letterSpacing": "-0.54px",
+            "letterSpacing": "-0.4px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1706,7 +1706,7 @@
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "16px",
             "fontSize": "13px",
-            "letterSpacing": "-0.54px",
+            "letterSpacing": "-0.4px",
             "textCase": "Uppercase"
           },
           "type": "typography"
@@ -1717,7 +1717,7 @@
             "fontWeight": "{Font Weight.Medium}",
             "lineHeight": "16px",
             "fontSize": "13px",
-            "letterSpacing": "-0.54px",
+            "letterSpacing": "-0.4px",
             "textCase": "Uppercase"
           },
           "type": "typography"
