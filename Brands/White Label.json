@@ -999,11 +999,11 @@
         "ProductcardTitle": {
           "value": {
             "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Desktop.Body 1}",
-            "fontSize": "{Font Size.Desktop.Body 1}",
-            "textCase": "Lowercase",
-            "letterSpacing": "0px"
+            "fontWeight": "{Font Weight.Medium}",
+            "lineHeight": "20px",
+            "fontSize": "18px",
+            "textCase": "Uppercase",
+            "letterSpacing": "-0.4px"
           },
           "type": "typography"
         },
@@ -1254,10 +1254,10 @@
           "value": {
             "fontFamily": "{Font Family.Primary}",
             "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Desktop.Body 1}",
-            "fontSize": "{Font Size.Desktop.Body 1}",
-            "textCase": "Lowercase",
-            "letterSpacing": "0px"
+            "lineHeight": "20px",
+            "fontSize": "18px",
+            "textCase": "Uppercase",
+            "letterSpacing": "-0.4px"
           },
           "type": "typography"
         },

@@ -229,7 +229,7 @@
           "description": "--colours-background-light-medium"
         },
         "Strong": {
-          "value": "#eaeaea",
+          "value": "{Colours.Brand.Grey.LightGrey}",
           "type": "color",
           "description": "--colours-background-light-strong"
         }
