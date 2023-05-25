@@ -233,11 +233,11 @@
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
           "type": "color"
         },
         "Medium": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
           "type": "color"
         },
         "Strong": {
@@ -253,11 +253,11 @@
           "type": "color"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
           "type": "color"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
           "type": "color"
         }
       },
@@ -267,7 +267,7 @@
           "type": "color"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.64)",
           "type": "color"
         },
         "Weak": {
@@ -523,7 +523,7 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },
@@ -558,7 +558,7 @@
     },
     "Links": {
       "Text Link": {
-        "value": "{Colours.TextEmphasis.Dark.Strong}",
+        "value": "{Colours.Text Tokens.Dark.Strong}",
         "type": "color"
       }
     },

@@ -236,17 +236,17 @@
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
           "type": "color",
           "description": "--colours-background-dark-weak"
         },
         "Medium": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
           "type": "color",
           "description": "--colours-background-dark-medium"
         },
         "Strong": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color",
           "description": "--colours-background-dark-strong"
         }
@@ -272,7 +272,7 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color",
           "description": "--colours-textemphasis-dark-strong"
         },
@@ -308,7 +308,7 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-strong"
         },
@@ -500,24 +500,24 @@
         "type": "color"
       },
       "Active": {
-        "value": "{Colours.Brand.Primary.Black}",
+        "value": "{Colours.Core.Primary.Black}",
         "type": "color"
       }
     },
     "Button": {
       "Background": {
         "Default": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color"
         },
         "Disabled": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color"
         }
       }
@@ -549,7 +549,7 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },

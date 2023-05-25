@@ -252,12 +252,12 @@
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
           "type": "color",
           "description": "--colours-background-dark-weak"
         },
         "Medium": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
           "type": "color",
           "description": "--colours-background-dark-medium"
         },
@@ -276,12 +276,12 @@
           "description": "--colours-textemphasis-light-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-textemphasis-light-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-textemphasis-light-weak"
         }
@@ -293,12 +293,12 @@
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-textemphasis-dark-weak"
         }
@@ -565,7 +565,7 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },

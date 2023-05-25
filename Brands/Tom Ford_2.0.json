@@ -229,19 +229,19 @@
           "description": "--colours-background-light-medium"
         },
         "Strong": {
-          "value": "{Colours.Brand.Grey.LightGrey}",
+          "value": "{Colours.Core.Secondary.LightGrey}",
           "type": "color",
           "description": "--colours-background-light-strong"
         }
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
           "type": "color",
           "description": "--colours-background-dark-weak"
         },
         "Medium": {
-          "value": "rgba({Colours.Background.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
           "type": "color",
           "description": "--colours-background-dark-medium"
         },
@@ -260,29 +260,29 @@
           "description": "--colours-textemphasis-light-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-textemphasis-light-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-textemphasis-light-weak"
         }
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color",
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Grey.MediumGrey}",
+          "value": "{Colours.Core.Secondary.MediumGrey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
         "Weak": {
-          "value": "{Colours.Brand.Grey.Grey}",
+          "value": "{Colours.Core.Secondary.Grey}",
           "type": "color",
           "description": "--colours-textemphasis-dark-weak"
         }
@@ -308,17 +308,17 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Brand.Primary.Black}",
+          "value": "{Colours.Core.Primary.Black}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-strong"
         },
         "Medium": {
-          "value": "{Colours.Brand.Grey.MediumGrey}",
+          "value": "{Colours.Core.Secondary.MediumGrey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-medium"
         },
         "Weak": {
-          "value": "{Colours.Brand.Grey.Grey}",
+          "value": "{Colours.Core.Secondary.Grey}",
           "type": "color",
           "description": "--colours-iconemphasis-dark-weak"
         }
@@ -496,11 +496,11 @@
     },
     "Border": {
       "Default": {
-        "value": "{Colours.Brand.Grey.Grey}",
+        "value": "{Colours.Core.Secondary.Grey}",
         "type": "color"
       },
       "Active": {
-        "value": "{Colours.Brand.Primary.Black}",
+        "value": "{Colours.Core.Primary.Black}",
         "type": "color"
       }
     },
@@ -541,7 +541,7 @@
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Grey.Grey}",
+          "value": "{Colours.Core.Secondary.Grey}",
           "type": "color"
         }
       }
@@ -549,20 +549,20 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Grey.Grey}",
+          "value": "{Colours.Core.Secondary.Grey}",
           "type": "color"
         }
       }
     },
     "Divider": {
       "Default": {
-        "value": "{Colours.Brand.Grey.Grey}",
+        "value": "{Colours.Core.Secondary.Grey}",
         "type": "color"
       }
     },

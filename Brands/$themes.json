@@ -3,15 +3,15 @@
     "id": "4ee56561689065c40253836be4295073862c1690",
     "name": "Tom Ford 2.0",
     "selectedTokenSets": {
-      "Tom Ford_2.0": "enabled"
+      "Tom Ford_2.0": "enabled",
+      "Tom Ford/colors": "disabled",
+      "Tom Ford/typography": "disabled",
+      "Tom Ford/spacing": "disabled"
     },
     "$figmaStyleReferences": {
-      "Colours.Background.Light.Weak": "S:81f6d1c4a0626ef65ba57927a4f854977338cfbd,",
-      "Colours.Background.Light.Medium": "S:f4017c7113414d238ed4ddeb1d53ec3dbc0798fe,",
       "Colours.Background.Light.Strong": "S:6ffc7ab4c651ca5a175e1fcd2309310e2ce15e01,",
       "Colours.Background.Dark.Weak": "S:d4f647e878e0adf439582e8dff182a06f6b6fb10,",
       "Colours.Background.Dark.Medium": "S:43c5e403611cb34172ac48b8595cb17df2437e8b,",
-      "Colours.Background.Dark.Strong": "S:1904cfaf5974aeb6832eb2b505976ebd5f8a23ba,",
       "Colours.TextEmphasis.Light.Strong": "S:6425860bbc1fd67bb3a350dff7118d6051c8a31e,",
       "Colours.TextEmphasis.Light.Medium": "S:f7276624246bc811233a5308209a01849e22fb2f,",
       "Colours.TextEmphasis.Light.Weak": "S:3ef6814339628faef8d57b5585c9af0cacabee77,",
@@ -326,7 +326,20 @@
       "Typography.Body.Body 2.Mobile.Default": "S:860a25fa804db2675cbb74ae5e267f9a03c3e731,",
       "Typography.Body.Body 2.Mobile.Bold": "S:26c6cddc3d0ceaac16ac852dff4cad07334abadc,",
       "Typography.Body.Body 2.Mobile.Medium": "S:ff57a68ae464eeaff8e539faad97a1848076f5b5,",
-      "Typography.Body.Body 2.Mobile.Light": "S:5451bcf9406ac3342736f451ad7a74c742f03e20,"
+      "Typography.Body.Body 2.Mobile.Light": "S:5451bcf9406ac3342736f451ad7a74c742f03e20,",
+      "Colours.Background.background": "S:81f6d1c4a0626ef65ba57927a4f854977338cfbd,",
+      "Colours.Background.background-secondary": "S:f4017c7113414d238ed4ddeb1d53ec3dbc0798fe,",
+      "Colours.Background.background-inverse": "S:1904cfaf5974aeb6832eb2b505976ebd5f8a23ba,"
+    }
+  },
+  {
+    "id": "a7122ca4e95c2e045ce86defa7352a5f7d80e102",
+    "name": "Tom Ford",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Tom Ford/colors": "enabled",
+      "Tom Ford/typography": "enabled",
+      "Tom Ford/spacing": "enabled"
     }
   }
 ]

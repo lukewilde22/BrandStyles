@@ -237,11 +237,11 @@
           "type": "color"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
           "type": "color"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Light.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
           "type": "color"
         }
       },
@@ -251,11 +251,11 @@
           "type": "color"
         },
         "Medium": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.64)",
+          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.64)",
           "type": "color"
         },
         "Weak": {
-          "value": "rgba({Colours.TextEmphasis.Dark.Strong}, 0.4)",
+          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.4)",
           "type": "color"
         }
       }
@@ -455,14 +455,14 @@
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Primary.White}",
+          "value": "{Colours.Core.Primary.White}",
           "type": "color"
         }
       }
     },
     "Progress Bar": {
       "Active": {
-        "value": "{Colours.Brand.Primary.White}",
+        "value": "{Colours.Core.Primary.White}",
         "type": "color"
       },
       "Inactive": {
@@ -473,7 +473,7 @@
     "Container": {
       "Background": {
         "Primary": {
-          "value": "{Colours.Brand.Primary.White}",
+          "value": "{Colours.Core.Primary.White}",
           "type": "color"
         }
       },
@@ -501,13 +501,13 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background.Light.Weak}",
+          "value": "{Colours.Background Tokens.background}",
           "type": "color"
         }
       },
       "Border": {
         "Default": {
-          "value": "{Colours.Brand.Primary.White}",
+          "value": "{Colours.Core.Primary.White}",
           "type": "color"
         }
       }

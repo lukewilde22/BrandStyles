@@ -1,0 +1,30 @@
+{
+  "Desktop": {
+    "ButtonHeight": {
+      "value": "12px, 20px, 12px, 20px",
+      "type": "spacing"
+    },
+    "InputHeight": {
+      "value": "12px, 16px, 12px, 16px",
+      "type": "spacing"
+    },
+    "InputSpacing": {
+      "value": "16px",
+      "type": "spacing"
+    }
+  },
+  "Mobile": {
+    "ButtonHeight": {
+      "value": "12px, 20px, 12px, 20px",
+      "type": "spacing"
+    },
+    "InputHeight": {
+      "value": "12px, 16px, 12px, 16px",
+      "type": "spacing"
+    },
+    "InputSpacing": {
+      "value": "16px",
+      "type": "spacing"
+    }
+  }
+}
