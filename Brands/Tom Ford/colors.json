@@ -1,6 +1,6 @@
 {
   "backgroundColor": {
-    "primary": {
+    "DEFAULT": {
       "value": "#ffffff",
       "type": "color",
       "description": "Default page background"
@@ -17,7 +17,7 @@
     },
     "input": {
       "primary": {
-        "base": {
+        "DEFAULT": {
           "value": "#ffffff",
           "type": "color",
           "description": "Background color for input fields"
@@ -31,7 +31,7 @@
     },
     "button": {
       "primary": {
-        "base": {
+        "DEFAULT": {
           "value": "#000000",
           "type": "color",
           "description": "Primary button background color"
@@ -47,7 +47,7 @@
           "description": "Disabled state color for all buttons"
         },
         "inverse": {
-          "base": {
+          "DEFAULT": {
             "value": "#ffffff",
             "type": "color",
             "description": "Primary button background color when on a black background"
@@ -65,7 +65,7 @@
         }
       },
       "secondary": {
-        "base": {
+        "DEFAULT": {
           "value": "#ffffff",
           "type": "color",
           "description": "Secondary button background color"
@@ -81,7 +81,7 @@
           "description": "Disabled state color for all buttons"
         },
         "inverse": {
-          "base": {
+          "DEFAULT": {
             "value": "#000000",
             "type": "color",
             "description": "Secondary button background color when on a black background"
@@ -101,7 +101,7 @@
     },
     "icon": {
       "primary": {
-        "base": {
+        "DEFAULT": {
           "value": "#000000",
           "type": "color",
           "description": "Primary icons"
@@ -113,7 +113,7 @@
         }
       },
       "secondary": {
-        "base": {
+        "DEFAULT": {
           "value": "#656565",
           "type": "color",
           "description": "Secondary icons"
@@ -125,7 +125,7 @@
         }
       },
       "inverse": {
-        "base": {
+        "DEFAULT": {
           "value": "#ffffff",
           "type": "color",
           "description": "Inverse text color, Inverse icon color"
@@ -139,7 +139,7 @@
     }
   },
   "textColor": {
-    "primary": {
+    "DEFAULT": {
       "value": "#000000",
       "type": "color",
       "description": "Headers, Legal, Text link color, Button text color, Hover text color for $text-secondary"
@@ -175,7 +175,7 @@
       "description": "Success message text"
     },
     "inverse": {
-      "primary": {
+      "DEFAULT": {
         "value": "#ffffff",
         "type": "color",
         "description": "Text color on $background-inverse"
