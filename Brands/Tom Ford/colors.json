@@ -101,19 +101,28 @@
     },
     "icon": {
       "primary": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Primary icons"
+        "base": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Primary icons"
+        },
+        "disabled": {
+          "value": "#b7b7b7",
+          "type": "color",
+          "description": "Disabled state for icons"
+        }
       },
       "secondary": {
-        "value": "#656565",
-        "type": "color",
-        "description": "Secondary icons"
-      },
-      "disabled": {
-        "value": "#b7b7b7",
-        "type": "color",
-        "description": "Disabled state for icons"
+        "base": {
+          "value": "#656565",
+          "type": "color",
+          "description": "Secondary icons"
+        },
+        "disabled": {
+          "value": "#b7b7b7",
+          "type": "color",
+          "description": "Disabled state for icons"
+        }
       },
       "inverse": {
         "base": {
