@@ -1,435 +1,178 @@
 {
-  "Background Tokens": {
-    "$background": {
+  "backgroundColor": {
+    "primary": {
       "value": "#ffffff",
       "type": "color",
-      "description": "$background"
+      "description": "Default page background"
     },
-    "$background-secondary": {
+    "secondary": {
       "value": "#f5f5f5",
       "type": "color",
-      "description": "$background-secondary"
+      "description": "Secondary background color to separate modules on top of $background"
     },
-    "$background-inverse": {
+    "inverse": {
       "value": "#000000",
       "type": "color",
-      "description": "$background-inverse"
+      "description": "High contrast background color"
+    },
+    "input": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Background color for input fields"
+    },
+    "input-disabled": {
+      "value": "#e3e3e3",
+      "type": "color",
+      "description": "Background color for a disabled input"
+    },
+    "button-primary": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Primary button background color"
+    },
+    "button-primary-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Hover color for $button-primary"
+    },
+    "button-secondary": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Secondary button background color"
+    },
+    "button-disabled": {
+      "value": "#656565",
+      "type": "color",
+      "description": "Disabled state color for all buttons"
+    },
+    "button-primary-inverse": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Primary button background color when on a black background"
+    },
+    "button-primary-inverse-hover": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Hover color for $button-primary when on a black background"
+    },
+    "button-secondary-inverse": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Secondary button background color when on a black background"
+    },
+    "button-secondary-inverse-hover": {
+      "value": "rgba(60, 60, 60, 0.5)",
+      "type": "color",
+      "description": "Hover color for $button-secondary when on a black background"
+    },
+    "button-disabled-inverse": {
+      "value": "#404040",
+      "type": "color",
+      "description": "Disabled state color for all buttons when on a black background"
+    },
+    "icon-primarye": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Primary icons"
+    },
+    "icon-secondary": {
+      "value": "#656565",
+      "type": "color",
+      "description": "Secondary icons"
+    },
+    "icon-disabled": {
+      "value": "#b7b7b7",
+      "type": "color",
+      "description": "Disabled state for icons"
+    },
+    "icon-inverse": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Inverse text color, Inverse icon color"
+    },
+    "icon-inverse-disabled": {
+      "value": "#404040",
+      "type": "color",
+      "description": "Disabled state color for $icon-on-color "
     }
   },
-  "Text Tokens": {
-    "$text-primary": {
-      "value": "{Color Palettes.Other Colors.black}",
+  "textColor": {
+    "primary": {
+      "value": "#000000",
       "type": "color",
-      "description": "$text-primary"
+      "description": "Headers, Legal, Text link color, Button text color, Hover text color for $text-secondary"
     },
-    "$text-secondary": {
-      "value": "{Color Palettes.Neutral Palette.neutral-800}",
+    "secondary": {
+      "value": "#404040",
       "type": "color",
-      "description": "$text-secondary"
+      "description": "Body copy"
     },
-    "$text-placeholder": {
-      "value": "{Color Palettes.Neutral Palette.neutral-600}",
+    "placeholder": {
+      "value": "#656565",
       "type": "color",
-      "description": "$text-placeholder"
+      "description": "Placeholder text"
     },
-    "$text-error": {
-      "value": "{Color Palettes.Red Palette.red-600}",
+    "helper": {
+      "value": "#656565",
       "type": "color",
-      "description": "$text-error"
+      "description": "Tertiary text, Help text"
     },
-    "$text-warning": {
-      "value": "{Color Palettes.Orange Palette.orange-500}",
+    "error": {
+      "value": "#d0021b",
       "type": "color",
-      "description": "$text-warning"
+      "description": "Error message text"
     },
-    "$text-success": {
-      "value": "{Color Palettes.Green Palette.green-600}",
+    "warning": {
+      "value": "#e66100",
       "type": "color",
-      "description": "$text-success"
+      "description": "Warning message text"
     },
-    "$text-inverse": {
-      "value": "{Color Palettes.Other Colors.white}",
+    "success": {
+      "value": "#149901",
       "type": "color",
-      "description": "$text-inverse"
+      "description": "Success message text"
     },
-    "$text-disabled": {
-      "value": "{Color Palettes.Neutral Palette.neutral-400}",
+    "inverse": {
+      "value": "#ffffff",
       "type": "color",
-      "description": "$text-disabled"
+      "description": "Text color on $background-inverse"
     },
-    "$text-inverse-disabled": {
-      "value": "{Color Palettes.Neutral Palette.neutral-800}",
+    "disabled": {
+      "value": "#b7b7b7",
       "type": "color",
-      "description": "$text-inverse-disabled"
+      "description": "Disabled text color, Disabled label"
+    },
+    "inverse-disabled": {
+      "value": "#404040",
+      "type": "color",
+      "description": "Disabled text color for $text-inverse"
     }
   },
-  "Button Tokens": {
-    "$button-primary": {
-      "value": "{Color Palettes.Other Colors.black}",
+  "borderColor": {
+    "input": {
+      "value": "#b7b7b7",
       "type": "color",
-      "description": "$button-primary"
+      "description": "Input border color"
     },
-    "$button-primary-hover": {
-      "value": "{Color Palettes.Other Colors.white}",
+    "error": {
+      "value": "#d0021b",
       "type": "color",
-      "description": "$button-primary-hover"
+      "description": "Input error border, Error message border"
     },
-    "$button-primary-hover-border": {
-      "value": "{Color Palettes.Neutral Palette.neutral-200}",
+    "warning": {
+      "value": "#e66100",
       "type": "color",
-      "description": "$button-primary-hover-border"
+      "description": "Warning message border"
     },
-    "$button-secondary": {
-      "value": "{Color Palettes.Other Colors.white}",
+    "success": {
+      "value": "#149901",
       "type": "color",
-      "description": "$button-secondary"
+      "description": "Success message border"
     },
-    "$button-secondary-border": {
-      "value": "{Color Palettes.Other Colors.black}",
+    "focus": {
+      "value": "#006aff",
       "type": "color",
-      "description": "$button-secondary-border"
-    },
-    "$button-secondary-hover": {
-      "value": "{Color Palettes.Other Colors.white}",
-      "type": "color",
-      "description": "$button-secondary-hover"
-    },
-    "$button-secondary-hover-border": {
-      "value": "{Color Palettes.Neutral Palette.neutral-200}",
-      "type": "color",
-      "description": "$button-secondary-hover-border"
-    },
-    "$button-disabled": {
-      "value": "{Color Palettes.Neutral Palette.neutral-600}",
-      "type": "color",
-      "description": "$button-disabled"
-    },
-    "$button-primary-inverse": {
-      "value": "{Color Palettes.Other Colors.black}",
-      "type": "color",
-      "description": "$button-primary-inverse"
-    },
-    "$button-primary-inverse-hover": {
-      "value": "{Color Palettes.Other Colors.white}",
-      "type": "color",
-      "description": "$button-primary-inverse-hover"
-    },
-    "$button-primary-inverse-hover-border": {
-      "value": "{Color Palettes.Neutral Palette.neutral-200}",
-      "type": "color",
-      "description": "$button-primary-inverse-hover-border"
-    },
-    "$button-secondary-inverse": {
-      "value": "{Color Palettes.Other Colors.white}",
-      "type": "color",
-      "description": "$button-secondary-inverse"
-    },
-    "$button-secondary-inverse-border": {
-      "value": "{Color Palettes.Other Colors.black}",
-      "type": "color",
-      "description": "$button-secondary-inverse-border"
-    },
-    "$button-secondary-inverse-hover": {
-      "value": "{Color Palettes.Other Colors.white}",
-      "type": "color",
-      "description": "$button-secondary-inverse-hover"
-    },
-    "$button-secondary-inverse-hover-border": {
-      "value": "{Color Palettes.Neutral Palette.neutral-200}",
-      "type": "color",
-      "description": "$button-secondary-inverse-hover-border"
-    },
-    "$button-disabled-inverse": {
-      "value": "{Color Palettes.Neutral Palette.neutral-600}",
-      "type": "color",
-      "description": "$button-disabled-inverse"
-    }
-  },
-  "Icon Tokens": {
-    "$input": {
-      "value": "{Color Palettes.Other Colors.white}",
-      "type": "color",
-      "description": "$input"
-    },
-    "$input-border": {
-      "value": "{Color Palettes.Neutral Palette.neutral-400}",
-      "type": "color",
-      "description": "$input-border"
-    },
-    "$input-disabled": {
-      "value": "{Color Palettes.Neutral Palette.neutral-200}",
-      "type": "color",
-      "description": "$input-disabled"
-    },
-    "$input-border-error": {
-      "value": "{Color Palettes.Red Palette.red-600}",
-      "type": "color",
-      "description": "$input-border-error"
-    }
-  },
-  "Focus Tokens": {
-    "$focus": {
-      "value": "{Color Palettes.Blue Palette.blue-700}",
-      "type": "color",
-      "description": "$focus"
-    }
-  },
-  "Color Palettes": {
-    "Neutral Palette": {
-      "neutral-50": {
-        "value": "#fafafa",
-        "type": "color"
-      },
-      "neutral-100": {
-        "value": "#f5f5f5",
-        "type": "color"
-      },
-      "neutral-200": {
-        "value": "#e3e3e3",
-        "type": "color"
-      },
-      "neutral-300": {
-        "value": "#cecece",
-        "type": "color"
-      },
-      "neutral-400": {
-        "value": "#b7b7b7",
-        "type": "color"
-      },
-      "neutral-500": {
-        "value": "#9c9c9c",
-        "type": "color"
-      },
-      "neutral-600": {
-        "value": "#656565",
-        "type": "color"
-      },
-      "neutral-700": {
-        "value": "#505050",
-        "type": "color"
-      },
-      "neutral-800": {
-        "value": "#404040",
-        "type": "color"
-      },
-      "neutral-900": {
-        "value": "#1f1f1f",
-        "type": "color"
-      }
-    },
-    "Blue Palette": {
-      "blue-50": {
-        "value": "#e1f2ff",
-        "type": "color"
-      },
-      "blue-100": {
-        "value": "#b8dcff",
-        "type": "color"
-      },
-      "blue-200": {
-        "value": "#86c7ff",
-        "type": "color"
-      },
-      "blue-300": {
-        "value": "#48b1ff",
-        "type": "color"
-      },
-      "blue-400": {
-        "value": "#009fff",
-        "type": "color"
-      },
-      "blue-500": {
-        "value": "#008dff",
-        "type": "color"
-      },
-      "blue-600": {
-        "value": "#007eff",
-        "type": "color"
-      },
-      "blue-700": {
-        "value": "#006aff",
-        "type": "color"
-      },
-      "blue-800": {
-        "value": "#1a57ec",
-        "type": "color"
-      },
-      "blue-900": {
-        "value": "#2b31cc",
-        "type": "color"
-      }
-    },
-    "Green Palette": {
-      "green-50": {
-        "value": "#e6f4e4",
-        "type": "color"
-      },
-      "green-100": {
-        "value": "#c2e4bc",
-        "type": "color"
-      },
-      "green-200": {
-        "value": "#9ad291",
-        "type": "color"
-      },
-      "green-300": {
-        "value": "#6fc263",
-        "type": "color"
-      },
-      "green-400": {
-        "value": "#4cb53f",
-        "type": "color"
-      },
-      "green-500": {
-        "value": "#21a80f",
-        "type": "color"
-      },
-      "green-600": {
-        "value": "#149901",
-        "type": "color"
-      },
-      "green-700": {
-        "value": "#008700",
-        "type": "color"
-      },
-      "green-800": {
-        "value": "#007700",
-        "type": "color"
-      },
-      "green-900": {
-        "value": "#005900",
-        "type": "color"
-      }
-    },
-    "Orange Palette": {
-      "orange-50": {
-        "value": "#fdefe6",
-        "type": "color"
-      },
-      "orange-100": {
-        "value": "#fadfcc",
-        "type": "color"
-      },
-      "orange-200": {
-        "value": "#f5c099",
-        "type": "color"
-      },
-      "orange-300": {
-        "value": "#f0a066",
-        "type": "color"
-      },
-      "orange-400": {
-        "value": "#eb8133",
-        "type": "color"
-      },
-      "orange-500": {
-        "value": "#e66100",
-        "type": "color"
-      },
-      "orange-600": {
-        "value": "#b84e00",
-        "type": "color"
-      },
-      "orange-700": {
-        "value": "#8a3a00",
-        "type": "color"
-      },
-      "orange-800": {
-        "value": "#5c2700",
-        "type": "color"
-      },
-      "orange-900": {
-        "value": "#2e1300",
-        "type": "color"
-      }
-    },
-    "Red Palette": {
-      "red-50": {
-        "value": "#ffe7e6",
-        "type": "color"
-      },
-      "red-100": {
-        "value": "#ffcecc",
-        "type": "color"
-      },
-      "red-200": {
-        "value": "#ff9e9a",
-        "type": "color"
-      },
-      "red-300": {
-        "value": "#ff6d67",
-        "type": "color"
-      },
-      "red-400": {
-        "value": "#ff3d35",
-        "type": "color"
-      },
-      "red-500": {
-        "value": "#ff0c02",
-        "type": "color"
-      },
-      "red-600": {
-        "value": "#d0021b",
-        "type": "color"
-      },
-      "red-700": {
-        "value": "#990701",
-        "type": "color"
-      },
-      "red-800": {
-        "value": "#660501",
-        "type": "color"
-      },
-      "red-900": {
-        "value": "#330200",
-        "type": "color"
-      }
-    },
-    "Other Colors": {
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      }
-    }
-  },
-  "Core": {
-    "Primary": {
-      "Black": {
-        "value": "{Color Palettes.Other Colors.black}",
-        "type": "color",
-        "description": "--colours-brand-primary"
-      },
-      "White": {
-        "value": "{Color Palettes.Other Colors.white}",
-        "type": "color",
-        "description": "--colours-brand-primary"
-      }
-    },
-    "Secondary": {
-      "neutral-800": {
-        "value": "{Color Palettes.Neutral Palette.neutral-800}",
-        "type": "color",
-        "description": "neutral-800"
-      },
-      "neutral-600": {
-        "value": "{Color Palettes.Neutral Palette.neutral-600}",
-        "type": "color",
-        "description": "neutral-600"
-      },
-      "neutral-400": {
-        "value": "{Color Palettes.Neutral Palette.neutral-400}",
-        "type": "color",
-        "description": "neutral-400"
-      },
-      "neutral-100": {
-        "value": "{Color Palettes.Neutral Palette.neutral-100}",
-        "type": "color",
-        "description": "neutral-100"
-      }
+      "description": "Focus border, Focus underline"
     }
   }
 }
