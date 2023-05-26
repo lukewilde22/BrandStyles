@@ -17,66 +17,86 @@
     },
     "input": {
       "primary": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Background color for input fields"
-      },
-      "disabled": {
-        "value": "#e3e3e3",
-        "type": "color",
-        "description": "Background color for a disabled input"
+        "base": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Background color for input fields"
+        },
+        "disabled": {
+          "value": "#e3e3e3",
+          "type": "color",
+          "description": "Background color for a disabled input"
+        }
       }
     },
     "button": {
       "primary": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Primary button background color",
+        "base": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Primary button background color"
+        },
         "hover": {
           "value": "#ffffff",
           "type": "color",
           "description": "Hover color for $button-primary"
+        },
+        "disabled": {
+          "value": "#656565",
+          "type": "color",
+          "description": "Disabled state color for all buttons"
+        },
+        "inverse": {
+          "base": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Primary button background color when on a black background"
+          },
+          "hover": {
+            "value": "#000000",
+            "type": "color",
+            "description": "Hover color for $button-primary when on a black background"
+          },
+          "disabled": {
+            "value": "#404040",
+            "type": "color",
+            "description": "Disabled state color for all buttons when on a black background"
+          }
         }
       },
-      "primary-hover": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Hover color for $button-primary"
-      },
       "secondary": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Secondary button background color"
-      },
-      "disabled": {
-        "value": "#656565",
-        "type": "color",
-        "description": "Disabled state color for all buttons"
-      },
-      "primary-inverse": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Primary button background color when on a black background"
-      },
-      "primary-inverse-hover": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Hover color for $button-primary when on a black background"
-      },
-      "secondary-inverse": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Secondary button background color when on a black background"
-      },
-      "secondary-inverse-hover": {
-        "value": "rgba(60, 60, 60, 0.5)",
-        "type": "color",
-        "description": "Hover color for $button-secondary when on a black background"
-      },
-      "disabled-inverse": {
-        "value": "#404040",
-        "type": "color",
-        "description": "Disabled state color for all buttons when on a black background"
+        "base": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Secondary button background color"
+        },
+        "hover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Secondary button background color"
+        },
+        "disabled": {
+          "value": "#656565",
+          "type": "color",
+          "description": "Disabled state color for all buttons"
+        },
+        "inverse": {
+          "base": {
+            "value": "#000000",
+            "type": "color",
+            "description": "Secondary button background color when on a black background"
+          },
+          "hover": {
+            "value": "rgba(60, 60, 60, 0.5)",
+            "type": "color",
+            "description": "Hover color for $button-secondary when on a black background"
+          },
+          "disabled": {
+            "value": "#404040",
+            "type": "color",
+            "description": "Disabled state color for all buttons when on a black background"
+          }
+        }
       }
     },
     "icon": {
@@ -96,14 +116,16 @@
         "description": "Disabled state for icons"
       },
       "inverse": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Inverse text color, Inverse icon color"
-      },
-      "inverse-disabled": {
-        "value": "#404040",
-        "type": "color",
-        "description": "Disabled state color for $icon-on-color "
+        "base": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Inverse text color, Inverse icon color"
+        },
+        "disabled": {
+          "value": "#404040",
+          "type": "color",
+          "description": "Disabled state color for $icon-on-color "
+        }
       }
     }
   },
