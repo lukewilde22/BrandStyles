@@ -1,6 +1,6 @@
 {
   "backgroundColor": {
-    "DEFAULT": {
+    "primary": {
       "value": "#ffffff",
       "type": "color",
       "description": "Default page background"
