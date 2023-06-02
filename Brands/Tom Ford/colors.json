@@ -139,7 +139,7 @@
     }
   },
   "textColor": {
-    "DEFAULT": {
+    "primary": {
       "value": "#000000",
       "type": "color",
       "description": "Headers, Legal, Text link color, Button text color, Hover text color for $text-secondary"
