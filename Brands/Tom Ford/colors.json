@@ -170,7 +170,7 @@
       "description": "Warning message text"
     },
     "success": {
-      "value": "#149901",
+      "value": "#008700",
       "type": "color",
       "description": "Success message text"
     },
@@ -268,7 +268,7 @@
       "description": "Warning message border"
     },
     "success": {
-      "value": "#149901",
+      "value": "#008700",
       "type": "color",
       "description": "Success message border"
     },
