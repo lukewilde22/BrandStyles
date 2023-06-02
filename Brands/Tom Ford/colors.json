@@ -37,7 +37,7 @@
           "description": "Primary button background color"
         },
         "hover": {
-          "value": "#ffffff",
+          "value": "#656565",
           "type": "color",
           "description": "Hover color for $button-primary"
         },
@@ -193,10 +193,69 @@
     }
   },
   "borderColor": {
+    "button": {
+      "primary": {
+        "DEFAULT": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Primary button border color"
+        },
+        "hover": {
+          "value": "#656565",
+          "type": "color",
+          "description": "Primary button border color on hover"
+        }
+      },
+      "secondary": {
+        "DEFAULT": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Secondary button border color"
+        },
+        "hover": {
+          "value": "#b7b7b7",
+          "type": "color",
+          "description": "Secondary button border color on hover"
+        }
+      },
+      "inverse": {
+        "primary": {
+          "DEFAULT": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Primary inverse button border color"
+          },
+          "hover": {
+            "value": "#b7b7b7",
+            "type": "color",
+            "description": "Primary inverse button border color on hover"
+          }
+        },
+        "secondary": {
+          "DEFAULT": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Secondary inverse button border color"
+          },
+          "hover": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Secondary inverse button border color on hover"
+          }
+        }
+      }
+    },
     "input": {
-      "value": "#b7b7b7",
-      "type": "color",
-      "description": "Input border color"
+      "DEFAULT": {
+        "value": "#b7b7b7",
+        "type": "color",
+        "description": "Input border color"
+      },
+      "active": {
+        "value": "#b7b7b7",
+        "type": "color",
+        "description": "Input border color"
+      }
     },
     "error": {
       "value": "#d0021b",
