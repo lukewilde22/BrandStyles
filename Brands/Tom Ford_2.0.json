@@ -308,7 +308,7 @@
       },
       "Dark": {
         "Strong": {
-          "value": "{Colours.Core.Primary.Black}",
+          "value": "#000000",
           "type": "color",
           "description": "--colours-iconemphasis-dark-strong"
         },
