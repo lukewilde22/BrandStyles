@@ -541,7 +541,7 @@
       },
       "Border": {
         "Default": {
-          "value": "#b7b7b7",
+          "value": "#e3e3e3",
           "type": "color"
         }
       }
@@ -562,7 +562,7 @@
     },
     "Divider": {
       "Default": {
-        "value": "#b7b7b7",
+        "value": "#e3e3e3",
         "type": "color"
       }
     },
@@ -1888,7 +1888,7 @@
   },
   "Desktop": {
     "ButtonHeight": {
-      "value": "12px, 20px, 12px, 20px",
+      "value": "16px, 20px, 16px, 20px",
       "type": "spacing"
     },
     "InputHeight": {
