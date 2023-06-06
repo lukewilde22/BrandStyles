@@ -15,6 +15,11 @@
       "type": "color",
       "description": "High contrast background color"
     },
+    "product": {
+      "value": "linear-gradient(135deg, #e7e7e7 0%, #fafafa 100%)",
+      "type": "color",
+      "description": "Product image background color"
+    },
     "input": {
       "primary": {
         "DEFAULT": {

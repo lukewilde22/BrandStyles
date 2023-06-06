@@ -199,19 +199,19 @@
   },
   "Font Weight": {
     "Light": {
-      "value": "Book",
+      "value": "400",
       "type": "fontWeights"
     },
     "Regular": {
-      "value": "Book",
+      "value": "400",
       "type": "fontWeights"
     },
     "Medium": {
-      "value": "Medium",
+      "value": "500",
       "type": "fontWeights"
     },
     "Bold": {
-      "value": "Medium",
+      "value": "500",
       "type": "fontWeights"
     }
   },
