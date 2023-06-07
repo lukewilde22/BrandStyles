@@ -496,11 +496,11 @@
     },
     "Border": {
       "Default": {
-        "value": "#b7b7b7",
+        "value": "#e3e3e3",
         "type": "color"
       },
       "Active": {
-        "value": "#b7b7b7",
+        "value": "#000000",
         "type": "color"
       }
     },
