@@ -496,7 +496,7 @@
     },
     "Border": {
       "Default": {
-        "value": "#cccccc",
+        "value": "#dfdfdf",
         "type": "color"
       },
       "Active": {
@@ -528,7 +528,7 @@
         "type": "color"
       },
       "Inactive": {
-        "value": "{Colours.Neutrals.200}",
+        "value": "#dfdfdf",
         "type": "color"
       }
     },
@@ -1728,7 +1728,7 @@
   },
   "Desktop": {
     "ButtonHeight": {
-      "value": "13px, 24px, 13px, 24px",
+      "value": "17px, 24px, 17px, 24px",
       "type": "spacing"
     },
     "InputHeight": {
@@ -1742,7 +1742,7 @@
   },
   "Mobile": {
     "ButtonHeight": {
-      "value": "13px, 24px, 13px, 24px",
+      "value": "17px, 24px, 17px, 24px",
       "type": "spacing"
     },
     "InputHeight": {
