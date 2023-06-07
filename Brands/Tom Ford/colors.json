@@ -103,7 +103,9 @@
           }
         }
       }
-    },
+    }
+  },
+  "fill": {
     "icon": {
       "primary": {
         "DEFAULT": {
