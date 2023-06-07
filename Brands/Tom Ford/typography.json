@@ -218,280 +218,70 @@
   "Typography": {
     "Desktop": {
       "h1": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H1}",
+          "fontSize": "{Font Size.Desktop.H1}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-1px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H1}",
-            "fontSize": "{Font Size.Desktop.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h2": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H2}",
+          "fontSize": "{Font Size.Desktop.H2}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-1.25px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H2}",
-            "fontSize": "{Font Size.Desktop.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h3": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H3}",
+          "fontSize": "{Font Size.Desktop.H3}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.84px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Desktop.H3}",
-            "fontSize": "{Font Size.Desktop.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h4": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H4}",
+          "fontSize": "{Font Size.Desktop.H4}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.4px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H4}",
-            "fontSize": "{Font Size.Desktop.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h5": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H5}",
+          "fontSize": "{Font Size.Desktop.H5}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.4px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H5}",
-            "fontSize": "{Font Size.Desktop.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h6": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Desktop.H6}",
+          "fontSize": "{Font Size.Desktop.H6}",
+          "textCase": "Uppercase",
+          "letterSpacing": "0px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Desktop.H6}",
-            "fontSize": "{Font Size.Desktop.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "Global": {
         "ProductcardTitle": {
@@ -520,280 +310,70 @@
     },
     "Mobile": {
       "h1": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H1}",
-            "fontSize": "{Font Size.Mobile.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Light}",
+          "lineHeight": "{Line Height.Mobile.H1}",
+          "fontSize": "{Font Size.Mobile.H1}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-1px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H1}",
-            "fontSize": "{Font Size.Mobile.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H1}",
-            "fontSize": "{Font Size.Mobile.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H1}",
-            "fontSize": "{Font Size.Mobile.H1}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h2": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Mobile.H2}",
-            "fontSize": "{Font Size.Mobile.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Regular}",
+          "lineHeight": "{Line Height.Mobile.H2}",
+          "fontSize": "{Font Size.Mobile.H2}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-1.25px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H2}",
-            "fontSize": "{Font Size.Mobile.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H2}",
-            "fontSize": "{Font Size.Mobile.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H2}",
-            "fontSize": "{Font Size.Mobile.H2}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-1.25px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h3": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Mobile.H3}",
-            "fontSize": "{Font Size.Mobile.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Regular}",
+          "lineHeight": "{Line Height.Mobile.H3}",
+          "fontSize": "{Font Size.Mobile.H3}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.84px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H3}",
-            "fontSize": "{Font Size.Mobile.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H3}",
-            "fontSize": "{Font Size.Mobile.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H3}",
-            "fontSize": "{Font Size.Mobile.H3}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.84px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h4": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Mobile.H4}",
-            "fontSize": "{Font Size.Mobile.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Regular}",
+          "lineHeight": "{Line Height.Mobile.H4}",
+          "fontSize": "{Font Size.Mobile.H4}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.4px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H4}",
-            "fontSize": "{Font Size.Mobile.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H4}",
-            "fontSize": "{Font Size.Mobile.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H4}",
-            "fontSize": "{Font Size.Mobile.H4}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h5": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Regular}",
-            "lineHeight": "{Line Height.Mobile.H5}",
-            "fontSize": "{Font Size.Mobile.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Regular}",
+          "lineHeight": "{Line Height.Mobile.H5}",
+          "fontSize": "{Font Size.Mobile.H5}",
+          "textCase": "Uppercase",
+          "letterSpacing": "-0.4px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H5}",
-            "fontSize": "{Font Size.Mobile.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H5}",
-            "fontSize": "{Font Size.Mobile.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H5}",
-            "fontSize": "{Font Size.Mobile.H5}",
-            "textCase": "Uppercase",
-            "letterSpacing": "-0.4px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "h6": {
-        "default": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H6}",
-            "fontSize": "{Font Size.Mobile.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
+        "value": {
+          "fontFamily": "{Font Family.Primary}",
+          "fontWeight": "{Font Weight.Medium}",
+          "lineHeight": "{Line Height.Mobile.H6}",
+          "fontSize": "{Font Size.Mobile.H6}",
+          "textCase": "Uppercase",
+          "letterSpacing": "0px"
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Bold}",
-            "lineHeight": "{Line Height.Mobile.H6}",
-            "fontSize": "{Font Size.Mobile.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Medium}",
-            "lineHeight": "{Line Height.Mobile.H6}",
-            "fontSize": "{Font Size.Mobile.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        },
-        "light": {
-          "value": {
-            "fontFamily": "{Font Family.Primary}",
-            "fontWeight": "{Font Weight.Light}",
-            "lineHeight": "{Line Height.Mobile.H6}",
-            "fontSize": "{Font Size.Mobile.H6}",
-            "textCase": "Uppercase",
-            "letterSpacing": "0px"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
       },
       "Global": {
         "ProductcardTitle": {
