@@ -789,7 +789,7 @@
       }
     }
   },
-  "Typography": {
+  "typography": {
     "Desktop": {
       "h1": {
         "default": {
@@ -1692,8 +1692,8 @@
             "fontWeight": "{Font Weight.Regular}",
             "lineHeight": "{Line Height.Desktop.Body 1}",
             "fontSize": "{Font Size.Desktop.Body 1}",
-            "letterSpacing": "-0.4px",
-            "textCase": "Title case",
+            "letterSpacing": "0px",
+            "textCase": "Uppercase",
             "textDecoration": "Underline"
           },
           "type": "typography"
@@ -1728,8 +1728,8 @@
             "fontWeight": "{Font Weight.Regular}",
             "lineHeight": "{Line Height.Mobile.Body 1}",
             "fontSize": "{Font Size.Mobile.Body 1}",
-            "letterSpacing": "-0.4px",
-            "textCase": "Title case",
+            "letterSpacing": "0px",
+            "textCase": "Uppercase",
             "textDecoration": "Underline"
           },
           "type": "typography"
