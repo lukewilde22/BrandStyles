@@ -240,12 +240,12 @@
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
+          "value": "rgba( {Colours.Background.Dark.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-background-dark-weak"
         },
         "Medium": {
-          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
+          "value": "rgba( {Colours.Background.Dark.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-background-dark-medium"
         },
@@ -264,12 +264,12 @@
           "description": "--colours-textemphasis-light-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
+          "value": "rgba( {Colours.TextEmphasis.Light.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-textemphasis-light-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
+          "value": "rgba( {Colours.TextEmphasis.Light.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-textemphasis-light-weak"
         }
@@ -526,7 +526,7 @@
         "type": "color"
       },
       "Inactive": {
-        "value": "{Colours.Neutrals.200}",
+        "value": "#cccccc",
         "type": "color"
       }
     },
@@ -547,7 +547,7 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background Tokens.background}",
+          "value": "{Colours.Background.Light.Weak}",
           "type": "color"
         }
       },
@@ -582,7 +582,7 @@
     },
     "Links": {
       "Text Link": {
-        "value": "{Colours.Text Tokens.Dark.Strong}",
+        "value": "{Colours.Background.Dark.Strong}",
         "type": "color"
       }
     },

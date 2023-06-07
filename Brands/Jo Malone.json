@@ -240,17 +240,17 @@
       },
       "Dark": {
         "Weak": {
-          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.4)",
+          "value": "rgba( {Colours.Background.Dark.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-background-dark-weak"
         },
         "Medium": {
-          "value": "rgba({Colours.Background Tokens.background-inverse}, 0.64)",
+          "value": "rgba( {Colours.Background.Dark.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-background-dark-medium"
         },
         "Strong": {
-          "value": "#000",
+          "value": "#1c1c1c",
           "type": "color",
           "description": "--colours-background-dark-strong"
         }
@@ -264,12 +264,12 @@
           "description": "--colours-textemphasis-light-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.64)",
+          "value": "rgba( {Colours.TextEmphasis.Light.Strong}, 0.64)",
           "type": "color",
           "description": "--colours-textemphasis-light-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.Text Tokens.Light.Strong}, 0.4)",
+          "value": "rgba( {Colours.TextEmphasis.Light.Strong}, 0.4)",
           "type": "color",
           "description": "--colours-textemphasis-light-weak"
         }
@@ -281,12 +281,12 @@
           "description": "--colours-textemphasis-dark-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.64)",
+          "value": "#707070",
           "type": "color",
           "description": "--colours-textemphasis-dark-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.Text Tokens.Dark.Strong}, 0.4)",
+          "value": "#707070",
           "type": "color",
           "description": "--colours-textemphasis-dark-weak"
         }
@@ -295,7 +295,7 @@
     "IconEmphasis": {
       "Light": {
         "Strong": {
-          "value": "#fff",
+          "value": "#FCF9EE",
           "type": "color",
           "description": "--colours-iconemphasis-light-strong"
         },
@@ -317,12 +317,12 @@
           "description": "--colours-iconemphasis-dark-strong"
         },
         "Medium": {
-          "value": "rgba({Colours.IconEmphasis.Dark.Strong}, 0.64)",
+          "value": "#707070",
           "type": "color",
           "description": "--colours-iconemphasis-dark-medium"
         },
         "Weak": {
-          "value": "rgba({Colours.IconEmphasis.Dark.Strong}, 0.3)",
+          "value": "#707070",
           "type": "color",
           "description": "--colours-iconemphasis-dark-weak"
         }
@@ -557,7 +557,7 @@
     "Input": {
       "Background": {
         "Default": {
-          "value": "{Colours.Background Tokens.background}",
+          "value": "{Colours.Background.Light.Weak}",
           "type": "color"
         }
       },
